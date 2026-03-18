@@ -1,0 +1,12 @@
+<nav class="bg-blue-600 text-white shadow-md">
+  <div class="max-w-7xl mx-auto px-4 md:px-8 py-3 flex justify-between items-center">
+    <div class="flex gap-4 md:gap-6 font-medium">
+      <a routerLink="/home" routerLinkActive="text-blue-200" class="hover:text-blue-200 transition-colors">Home</a>
+      <a routerLink="/consulta" routerLinkActive="text-blue-200" class="hover:text-blue-200 transition-colors">Consulta</a>
+      <a routerLink="/pago" routerLinkActive="text-blue-200" class="hover:text-blue-200 transition-colors">Pago</a>
+    </div>
+    <button (click)="logout()" class="bg-red-500 hover:bg-red-600 px-4 py-2 rounded text-sm font-semibold transition-colors">
+      Cerrar sesión
+    </button>
+  </div>
+</nav>
